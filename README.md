@@ -1,1 +1,1 @@
-# HeadJumpers-OnePage-Template
+# Head Jumpers - OnePage - Template
