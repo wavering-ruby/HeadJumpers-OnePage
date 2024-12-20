@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Head Jumpers</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+           <img class="logo" src="./src/img/logo_headjumpers_fire.png" width="100px" height="100px" alt="Logo Head Jumpers" srcset="">
+        </header>
+
+        <main class="selecao-de-personagens">
+            <section class="personagens"> <!-- Seleção dos Personagens -->
+                <h1 class="titulo">
+                    Selecione um personagem
+                </h1>
+                <ul class="lista-de-personagens"> <!-- Lista dos personagens (UL é uma classe desordenada)-->
+                    <!-- LI significa ListItem -->
+                    <li class="personagem selecionado" id="acir" data-name="Acir, o Xamã da Selva" data-description="Um xamã que utiliza o seu vínculo com espíritos. Ele consegue lançar flechas espirituais e invocar totens que aprimoram suas características físicas.">
+                        <img src="./src/img/card-acir.jpg" alt="Acir">
+                    </li>
+                    <li class="personagem" id="bruna" data-name="Bruna, a Feiticeira das Brasas" data-description="Uma feiticieira que se corrompeu com uma magia sombria. Ela é capaz de Invocar um urso das trevas que dilacera inimigos próximos e utiliza o fogo para afastar inimigos.">
+                        <img src="./src/img/card-bruna.jpg" alt="Bruna">
+                    </li>
+                    <li class="personagem" id="erick" data-name="Erick, o Viking Impetuoso" data-description="Um viking viciado em combate e em malhar seu corpo. Ele é capaz de jogar machados para ferir seus inimigos e seu escudo para aparar projéteis e avançar para cima deles.">
+                        <img src="./src/img/card-erick.jpg" alt="Erick">
+                    </li>
+                    <li class="personagem" id="esqueleto" data-name="Esqueleto, o Cultista do Abismo" data-description="Uma criatura criado pelo sombrio abismo. Ele é capaz de usar seu corpo para atingir inimigos (ricocheteando na parede) e se desmontar para ficar imune a danos.">
+                        <img src="./src/img/card-esqueleto.jpg" alt="Esqueleto">
+                    </li>
+                    <li class="personagem" id="lucas" data-name="Lucas, o Samurai Fantasioso" data-description="Um samurai (pelo o menos na cabeça dele) que luta contra o abismo. Utilize a sua incrível velocidade para avançar nos inimigos ou recuar de modo invulnerável.">
+                        <img src="./src/img/card-lucas.jpg" alt="Lucas">
+                    </li>
+                    <li class="personagem" id="naja" data-name="Naja, a Víbora Traída" data-description="Uma serpente que é capaz de petrificar seus inimigos. Utilize o seu ataque para congelar seus inimigos e transforme-se em uma víbora para correr dos inimigos.">
+                        <img src="./src/img/card-naja.jpg" alt="Naja">
+                    </li>
+                </ul>
+            </section>
+
+            <section class="personagem-selecionado"> <!-- Personagem Selecionado -->
+                <img class="personagem-grande" src="./src/img/card-acir.png" alt="Personagem Selecionado">
+
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem">Acir, o Xamã da Selva</h2>
+                    <p class="descricao-personagem" id="descricao-personagem">Desde criança ele teve uma ligação com o mundo espiritual. Ele consegue lançar flechas espirituais e invocar totens que aprimoram suas características físicas.</p>
+                </div>
+            </section>
+        </main>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
