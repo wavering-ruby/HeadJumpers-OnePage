@@ -1,8 +1,4 @@
-# Head Jumpers - One page
-
 # HTML
-
-# Head Jumpers - Character Selection Page Documentation
 
 ## Overview
 This HTML file represents the character selection page for *Head Jumpers*. It allows users to choose a character from a list, displaying detailed information about the selected character, including an image, name, and description.
@@ -154,3 +150,4 @@ function removerSelecaoDoPersonagem() {
 - The character images should follow the naming convention `card-{id}.png` and be stored in the `./src/img/` directory.
 - If no character is selected initially, `removerSelecaoDoPersonagem()` may cause an error if `personagemSelecionado` is `null`.
 
+---
